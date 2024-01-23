@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  backend-python:
+    container_name: backend-python
+    build: ./modeloKNN/.
+    restart: always
+    ports:
+      - "5000:5000"

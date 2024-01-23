@@ -1,0 +1,318 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 15:52:27] "[33mPOST /classificateItem HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 15:53:39] "[33mPOST /classificateItem HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 15:53:42] "[33mPOST /classificateItem HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 15:59:31] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 15:59:32] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 15:59:57] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:00:29] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:13:45] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:api_modelo:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1837, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a Thread.
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:17:12] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:21:20] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:21:25] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:21:48] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:22:08] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:28:14] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:29:10] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:29:12] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:29:17] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 16:42:32] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 17:36:37] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 17:44:11] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 17:51:22] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2023 17:51:23] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:33:45] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:43:01] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:43:03] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:45:12] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:45:50] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:50:47] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 12:50:49] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:04:39] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:08:42] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:11:52] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:15:21] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:16:12] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:18:42] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:20:28] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:32:44] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:37:45] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:48:06] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:53:16] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 14:54:15] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 15:39:34] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 15:58:54] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:02:13] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:04:14] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:05:01] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:06:07] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:09:06] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:10:03] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:12:46] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:13:49] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:25:03] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2023 16:25:37] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2023 16:33:03] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2023 12:16:49] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 11:32:33] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 11:35:50] "POST /process HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:api_modelo:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/anaclaramuller/Documents/GitHub/2023M8T3-proj3/Implementações/RNF-acuracia/modeloKNN/api_modelo.py", line 38, in before_request
+    g.start_time = time.time()
+NameError: name 'g' is not defined
+ERROR:api_modelo:Request finalizing failed with an error while handling an error
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/anaclaramuller/Documents/GitHub/2023M8T3-proj3/Implementações/RNF-acuracia/modeloKNN/api_modelo.py", line 38, in before_request
+    g.start_time = time.time()
+NameError: name 'g' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1508, in finalize_request
+    response = self.process_response(response)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2002, in process_response
+    response = self.ensure_sync(func)(response)
+  File "/Users/anaclaramuller/Documents/GitHub/2023M8T3-proj3/Implementações/RNF-acuracia/modeloKNN/api_modelo.py", line 43, in after_request
+    tempo_resposta_ms = (time.time() - g.start_time) * 1000
+NameError: name 'g' is not defined
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 11:39:27] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+ERROR:api_modelo:Exception on /process [POST]
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/anaclaramuller/Documents/GitHub/2023M8T3-proj3/Implementações/RNF-acuracia/modeloKNN/api_modelo.py", line 38, in before_request
+    g.start_time = time.time()
+NameError: name 'g' is not defined
+ERROR:api_modelo:Request finalizing failed with an error while handling an error
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/anaclaramuller/Documents/GitHub/2023M8T3-proj3/Implementações/RNF-acuracia/modeloKNN/api_modelo.py", line 38, in before_request
+    g.start_time = time.time()
+NameError: name 'g' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1508, in finalize_request
+    response = self.process_response(response)
+  File "/Users/anaclaramuller/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2002, in process_response
+    response = self.ensure_sync(func)(response)
+  File "/Users/anaclaramuller/Documents/GitHub/2023M8T3-proj3/Implementações/RNF-acuracia/modeloKNN/api_modelo.py", line 43, in after_request
+    tempo_resposta_ms = (time.time() - g.start_time) * 1000
+NameError: name 'g' is not defined
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 11:39:32] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 11:43:55] "POST /process HTTP/1.1" 200 -

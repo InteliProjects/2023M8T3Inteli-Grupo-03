@@ -1,0 +1,8 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Right_Btn">
+<rect x="0.5" y="0.5" width="29" height="29" rx="14.5" fill="#0050B3"/>
+<rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#262626"/>
+<line id="Line 2" x1="8.41421" y1="16" x2="13" y2="20.5858" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<line id="Line 3" x1="13" y1="20.5858" x2="22.5858" y2="11" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+  --Primary-Blue: #1890FF;
+  --Medium_Blue: #69C0FF;
+  --Dark_Blue: #0050B3;
+
+  --Gray: #8C8C8C
+
+  --Primary-White: #fff;
+
+  font-size: 62.5%;
+}
+
+.select-search-container {
+  --select-search-background: #fff!important;
+  --select-search-border: none!important;
+  --select-search-selected: none!important;
+  --select-search-text: #8c8c8c!important;
+  --select-search-subtle-text: #8c8c8c!important;
+  --select-search-inverted-text: var(--select-search-background)!important;
+  --select-search-highlight: #eff1f5!important;
+
+  input {
+    border-radius: 1rem;
+    border: 0.05rem solid var(--Primary-Dark_Grey, #595959);
+    overflow: hidden;
+    width: 100%;
+  }
+    
+  div {
+    width: 100%!important;
+    max-height: 25rem!important;
+
+    ul {
+      li, button {
+        height: fit-content!important;
+      }
+    }
+  }
+  
+  width: 100%!important;
+  position: relative;
+  font-family: var(--select-search-font);
+  color: var(--select-search-text);
+  box-sizing: border-box;
+  border-radius: 1rem!important;
+}
+
+body {
+  background: conic-gradient(
+      from -46deg at 27.94% -9.72%,
+      rgba(255, 255, 255, 0.2) 116.24999642372131deg,
+      rgba(24, 144, 255, 0.2) 326.25deg
+    ),
+    conic-gradient(from -10deg at 112.53% 59.95%, #2a18ff 0deg, #fff 360deg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Inter, sans-serif !important;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 0.2rem;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: var(--verde-2);
+    border-radius: 0.2rem;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--verde-1);
+  }
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+
+  &:visited {
+    color: unset;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+span,
+li {
+  font-size: 1.6rem;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.headerContainer{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 14rem;
+  }
+}

@@ -1,0 +1,20 @@
+# Node
+dist/
+node_modules/
+
+# Docker
+Dockerfile
+
+# Git
+.git
+.gitignore
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.example
+
+# utils folders
+test/

@@ -1,0 +1,25 @@
+.button {
+  display: inline-flex;
+  height: 4.5rem;
+  min-width: 11.5rem;
+  padding: 1.3rem 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 5rem;
+  background: var(--Dark_Blue, #0050b3);
+
+  color: var(--Primary-White, #fff);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border: none;
+  transition: 0.4s ease-in-out;
+
+  &:hover {
+    scale: 1.02;
+  }
+
+}
